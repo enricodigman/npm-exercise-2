@@ -11,5 +11,5 @@ for (let letter of joinArray.toLowerCase()) {
     }
 }
 
-console.log(`There ${arguments.length >  1 ? 'are': 'is'} ${arguments.length === 0 ? '': arguments.length} command-line argument${arguments.length === 1 ? '' : 's'} passed.`);
+console.log(`There ${arguments.length >  1 ? 'are' : 'is'} ${arguments.length === 0 ? '' : arguments.length} command-line argument${arguments.length === 1 ? '' : 's'} passed.`);
 console.log(`There ${count === 1 ? 'is' : 'are'} ${count} ${count === 1 ? 'vowel' : 'vowels'} found.`);
